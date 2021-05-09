@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.game {
+  margin: 2% 2%;
+  height: 500;
+  width: 300;
+}
+
+.game .score {
+  float: left;
+  margin-top: 5%;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+}
+
+.card {
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
